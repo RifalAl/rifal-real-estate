@@ -1,0 +1,90 @@
+.contact-container {
+  justify-content: space-between;
+}
+.contact-container > div {
+  flex: 1;
+}
+.contact-left {
+  width: 100%;
+}
+.contact-left {
+  gap: 0.5rem;
+}
+.contact-modes {
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.row {
+  gap: 1.5rem;
+}
+.mode {
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -ms-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  gap: 1rem;
+  transition: all 300ms ease-in;
+  border: 0.8px solid rgba(128, 128, 128, 0.15);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 16rem;
+}
+
+.button {
+  background: var(--lightBlue);
+  width: 100%;
+  color: var(--blue);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  scale: 0.8;
+  background: var(--blue-gradient);
+  color: white;
+}
+
+.mode > :nth-child(1) {
+  gap: 1.6rem;
+  width: 100%;
+}
+
+.primary-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.secondary-text {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.mode:hover {
+  scale: 1.1;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .row {
+    width: 100%;
+  }
+  .mode {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-modes {
+    flex-direction: column;
+  }
+  .contact-container > div {
+    width: 95%;
+  }
+}

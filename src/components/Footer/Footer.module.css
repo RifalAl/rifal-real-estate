@@ -1,0 +1,29 @@
+.footer-wrapper {
+  margin-bottom: 1rem;
+}
+.footer-container {
+  justify-content: space-between;
+}
+.menu {
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer-left {
+  gap: 1rrem;
+}
+
+.menu span {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer-left {
+    align-items: center;
+    width: 100%;
+  }
+  .footer-right {
+    align-items: center;
+  }
+}

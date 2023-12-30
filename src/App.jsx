@@ -1,7 +1,28 @@
+import Companies from "./components/Companies/Companies";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import GetStarted from "./components/GetStarted/GetStarted";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Residencies from "./components/Residencies/Residencies";
+import Value from "./components/Value/Value";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <main className={`${styles.app}`}>
+      <div className={`${styles["hh-wripper"]}`}>
+        <div className={`${styles["white-gradient"]}`} />
+        <Header />
+        <Hero />
+      </div>
+      <Companies />
+      <Residencies />
+      <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
+    </main>
   );
 }
 

@@ -1,0 +1,75 @@
+.hero-wrapper {
+  position: relative;
+  padding-bottom: 2rem;
+  color: white;
+}
+.hero-container {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.hero-left {
+  gap: 3rem;
+}
+
+/* * Right Side */
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+.orange-circle {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  position: absolute;
+  top: -10%;
+  right: 28%;
+  z-index: -1;
+  border-radius: 100%;
+  background: var(--orange-gradient);
+  width: 4rem;
+  height: 4rem;
+}
+.search-bar {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  justify-content: space-between;
+  border: 3px solid rgba(120, 120, 120, 0.4);
+  border-radius: 5px;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+.search-bar > input {
+  outline: none;
+  border: none;
+}
+.stats {
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .hero-title > h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .stats {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .hero-container > div {
+    width: 95%;
+  }
+}

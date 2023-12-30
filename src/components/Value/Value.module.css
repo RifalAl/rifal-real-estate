@@ -1,0 +1,54 @@
+.value-container > div {
+  flex: 1;
+}
+.value-container > .img-container {
+  border: 8px solid rgba(232 232 232 /93%);
+}
+.value-right {
+  gap: 0.5rem;
+}
+.accordion {
+  border: none;
+}
+.accordion-item {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-bottom: 20px;
+  border: 0.8px solid rgba(128, 128, 128, 0.15);
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+}
+.accordion-button {
+  justify-content: space-between;
+  cursor: pointer;
+  background: white;
+  padding: 1rem;
+  width: 100%;
+}
+
+.primary-text {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .value-container {
+    flex-direction: column;
+  }
+  .primary-text {
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+  .secondary-text {
+    font-size: 0.8rem;
+  }
+  .value-container > div {
+    width: 95%;
+  }
+  .value-left {
+    display: flex;
+    justify-content: center;
+  }
+}

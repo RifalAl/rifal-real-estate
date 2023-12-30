@@ -1,0 +1,12 @@
+.title-wrapper {
+  margin-bottom: 2rem;
+}
+.title-description {
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .title-wrapper {
+    align-items: start;
+  }
+}

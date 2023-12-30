@@ -1,0 +1,21 @@
+.app {
+  position: relative;
+  overflow-x: clip;
+}
+.hh-wripper {
+  position: relative;
+  background: var(--black);
+}
+.white-gradient {
+  -webkit-filter: blur(100px);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  position: absolute;
+  filter: blur(100px);
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  width: 20rem;
+  height: 20rem;
+}
