@@ -158,6 +158,12 @@ a {
   align-items: center !important;
 }
 
+.sticky-header-active {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #302e2eb1;
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .inner-width {

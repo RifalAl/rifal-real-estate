@@ -10,7 +10,7 @@ import styles from "./Residencies.module.css";
 
 const Residencies = () => {
   return (
-    <section className={`${styles["residences-wrapper"]}`}>
+    <section id="residencies" className={`${styles["residences-wrapper"]}`}>
       <div
         className={`paddings inner-width ${styles["residencies-container"]}`}
       >

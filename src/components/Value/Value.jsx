@@ -17,7 +17,7 @@ import styles from "./Value.module.css";
 
 const Value = () => {
   return (
-    <section className={`${styles["value-wrapper"]}`}>
+    <section id="ourValue" className={`${styles["value-wrapper"]}`}>
       <div
         className={`paddings inner-width flex-center  ${styles["value-container"]}`}
       >

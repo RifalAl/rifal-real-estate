@@ -8,7 +8,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <section className={`${styles["contact-wrapper"]}`}>
+    <section id="contactUs" className={`${styles["contact-wrapper"]}`}>
       <div
         className={`paddings inner-width flex-center ${styles["contact-container"]}`}
       >
